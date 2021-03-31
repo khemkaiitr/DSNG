@@ -1,6 +1,8 @@
 import json
 import plotly
 import pandas as pd
+import joblib
+import pickle
 
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
@@ -26,11 +28,12 @@ def tokenize(text):
     return clean_tokens
 
 # load data
-engine = create_engine('sqlite:///../data/YourDatabaseName.db')
-df = pd.read_sql_table('YourTableName', engine)
+engine = create_engine('sqlite:///../data/DisasterResponse.db')
+df = pd.read_sql_table('messages', engine)
 
 # load model
-model = joblib.load("../models/your_model_name.pkl")
+# model = joblib.load("../models/classifier.pkl")
+loaded_model = pickle.load(open("../models/classifier.pkl", 'rb'))
 
 
 # index webpage displays cool visuals and receives user input text for model
@@ -93,8 +96,10 @@ def go():
 
 
 def main():
-    app.run(host='0.0.0.0', port=3001, debug=True)
+#     app.run(host='0.0.0.0', port=3001, debug=True)
+    app.run(port=8080)
 
 
+    
 if __name__ == '__main__':
     main()
