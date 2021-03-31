@@ -46,6 +46,9 @@ def clean_data(df):
 
     # Remove duplicates.
     df.drop_duplicates(keep='first', inplace=True)
+
+    # Related column has 3 unique values (0, 1, 2). so dropping 2 as it has only 188 instances.
+    df = df[df.related != 2]
     return df
 
 
@@ -57,8 +60,7 @@ def save_data(df, database_filename):
     :return: None
     """
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('messages', engine, index=False)
-  
+    df.to_sql('messages', engine, index=False, if_exists='replace')
 
 
 def main():
@@ -72,18 +74,18 @@ def main():
 
         print('Cleaning data...')
         df = clean_data(df)
-        
+
         print('Saving data...\n    DATABASE: {}'.format(database_filepath))
         save_data(df, database_filepath)
-        
+
         print('Cleaned data saved to database!')
-    
+
     else:
-        print('Please provide the filepaths of the messages and categories '\
-              'datasets as the first and second argument respectively, as '\
-              'well as the filepath of the database to save the cleaned data '\
-              'to as the third argument. \n\nExample: python process_data.py '\
-              'disaster_messages.csv disaster_categories.csv '\
+        print('Please provide the filepaths of the messages and categories ' \
+              'datasets as the first and second argument respectively, as ' \
+              'well as the filepath of the database to save the cleaned data ' \
+              'to as the third argument. \n\nExample: python process_data.py ' \
+              'disaster_messages.csv disaster_categories.csv ' \
               'DisasterResponse.db')
 
 
