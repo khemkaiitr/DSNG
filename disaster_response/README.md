@@ -3,6 +3,8 @@
 ## Project motivation:
 In this project, I use disaster response data from figure8 to build a classification model to classify responses into different categories. I also build an API and front end to display these response. A custom query can be submitted as well.
 
+During the disaster multiple messages through the tweets, facebook or other social media platforms are received. If we could classify these messages into corresponding categories, respective authorities could be notified and appropriate response can be taken.
+
 ## File Description:
     - app:
     |  - templates
