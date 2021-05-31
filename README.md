@@ -4,8 +4,8 @@ Udacity data scientist nano-degree course contents
 ## Table of Contents
 
 1. [Installation](#installation)
-2. [Projects](#Link to different projects done in this nano degree course)
-3. [Project details](#file-description)
+2. [Projects](#Projects)
+3. [Project details](#Project details)
 4. [Acknowledgements](#acknowledgements)
 
 ## Installation: 
