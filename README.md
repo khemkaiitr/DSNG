@@ -5,7 +5,7 @@ Udacity data scientist nano-degree course contents
 
 1. [Installation](#installation)
 2. [Projects](#Projects)
-3. [Project details](#Project details)
+3. [Project details](#Project-details)
 4. [Acknowledgements](#acknowledgements)
 
 ## Installation: 
