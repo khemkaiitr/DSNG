@@ -18,3 +18,5 @@ Thus, it becomes important to identify reasons behind customer's churn and if po
     - open jupyer notebook and run `Sparkify.ipynb`
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     
+### Blog post:
+I have shared my results and observation on a medium blog as well. link to blog https://saurabhkhemkaiitr.medium.com/using-pyspark-to-predict-customer-churn-baa2bb73fca6
