@@ -22,7 +22,7 @@ In this project I am interested in analysing health insurance data from Kaggle t
 Download data from: https://www.kaggle.com/ydalat/lifestyle-and-wellbeing-data, unarchive it and store in data directory. All the analysis will be done on this dataset
 
 ## Results:
-Follow and run `lifestyle_analysis.ipynb` to visualise all the results
+Follow and run `lifestyle_analysis.ipynb` to visualise all the results. A medium blog can be found at: https://saurabhkhemkaiitr.medium.com/what-affects-lifestyle-and-well-being-8f964d979ae
 
 ## Acknowledgements
 https://www.kaggle.com/ydalat/lifestyle-and-wellbeing-data
