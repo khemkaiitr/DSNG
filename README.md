@@ -14,7 +14,8 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 ## Projects
 1. [Write a Blog Post](https://github.com/khemkaiitr/DSNG/tree/main/blog_post): Write medium post to publish your work.
 2. [Disaster response](https://github.com/khemkaiitr/DSNG/tree/main/disaster_response): Project to analyse disaster data from figure 8.
-3. [sparkify](https://github.com/khemkaiitr/DSNG/tree/main/sparkify): Project to predict user's churn using pyspark
+3. [recommendation ibm](https://github.com/khemkaiitr/DSNG/tree/main/recommendation_ibm): Porject to recommend news articles
+4. [sparkify](https://github.com/khemkaiitr/DSNG/tree/main/sparkify): Project to predict user's churn using pyspark
 
 ## Project details:
 For detail of each project, go through projects readme.
