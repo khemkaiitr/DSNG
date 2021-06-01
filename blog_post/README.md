@@ -19,7 +19,11 @@ In this project I am interested in analysing health insurance data from Kaggle t
 3. Who is more social, men or women?
 
 ## Start guide <a name="start guide"></a>
-Download data from: https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset, unarchive it and store in data directory. All the analysis will be done on this dataset
+Download data from: https://www.kaggle.com/ydalat/lifestyle-and-wellbeing-data, unarchive it and store in data directory. All the analysis will be done on this dataset
 
-# Data:
+## Results:
+Follow and run `lifestyle_analysis.ipynb` to visualise all the results
+
+## Acknowledgements
+https://www.kaggle.com/ydalat/lifestyle-and-wellbeing-data
 
